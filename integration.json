@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "09221e203af32fce60aa6264852742037e5b234b2cb9cca813853f976157b785",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agenty.com/openapi.json"
+  ],
+  "id": "agenty-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agenty MCP setup and connection checker",
+  "description": "Generate Agenty MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agenty",
+  "appName": "Agenty",
+  "providerDocs": "https://api.agenty.com/openapi.json",
+  "providerWebsite": "https://www.agenty.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.agenty.com/docs/api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agenty-mcp"
+}
